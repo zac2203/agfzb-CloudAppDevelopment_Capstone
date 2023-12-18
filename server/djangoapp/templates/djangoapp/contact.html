@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Dealership Review</title>
+    <title>Dealership About Us</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
@@ -14,8 +14,6 @@
 </head>
 
     <body>
-    <!-- Remove this line the first time you edit this file -->
-     This is the index page of your Django app!
     <!--Add a nav bar here -->
     <nav class="navbar navbar-light bg-light">
         <div class="container-fluid">
@@ -26,8 +24,20 @@
             <a class="nav navbar-nav" href="{% url 'djangoapp:contact' %}">Contact Us</a>
         </div>
     </nav>
-    <!--Add a dealer table here -->
 
+    <main role="main" class="container text-center mt-3 border-dark">
+        <div class="card ">
+                        <div class="card-header">
+                            <h5 class="card-title text-center pt-1">Contact Us!</h5>
+                        </div>
+                        <div class="card-body text-center">
+                            <h5 class="card-text">Address: 123 Main Street</h5>
+                            <h5 class="card-text">Phone: (123)-456-7890</h5>
+                            <h5 class="card-text">E-Mail: fake-email@gmail.com</h5>
+                        </div>
+        </div>
+        
+    </main>
     </body>
 
 </html>
