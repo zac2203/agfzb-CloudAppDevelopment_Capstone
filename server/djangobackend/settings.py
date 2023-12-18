@@ -27,9 +27,9 @@ DEBUG = True
 
 APPEND_SLASH = True
 
-ALLOWED_HOSTS = ["localhost"]
+ALLOWED_HOSTS = ["localhost", 'localhost:8000', 'https://zachew2203-8000.theiadockernext-0-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai']
 
-
+CSRF_TRUSTED_ORIGINS = ['https://zachew2203-8000.theiadockernext-0-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai']
 # Application definition
 
 INSTALLED_APPS = [
